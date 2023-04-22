@@ -1,0 +1,26 @@
+{
+    "name": "Intelligence Beyond Fashion",
+    "version": "1.0.0",
+    "description": "Chrome extension to find the relevant products across various platforms",
+    "manifest_version": 3,
+    "author": "Intelligence Beyond Fashion - Team - Lambton College",
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Intelligence Beyond Fashion"
+    },
+    "permissions": [
+        "activeTab", 
+        "scripting",
+        "tabs",
+        "notifications"
+    ],
+    "host_permissions": [
+        "http://127.0.0.1:5000/*",
+        "https://www.amazon.ca/*"
+    ]
+}
